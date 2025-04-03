@@ -1,0 +1,104 @@
+/*GENERAL*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: right;
+  background-color: #f0f8ff;
+}
+
+/*HEADER*/
+
+.title{
+  text-align:center;
+  margin-top:5px;
+  margin:auto;
+  display:flex;
+}
+.name{
+  padding:auto;
+  width:1000px;
+  margin:auto;
+  text-align:center;
+  color: #2c3e50;
+}
+.link{
+  font-size:2em;
+  margin-left:auto;
+  margin-top:10px;
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration:none;
+  text-align:center;
+  background-image: url('button.jpg');
+  background-size:cover;
+  border:5px groove rgb(118, 243, 180);
+  width:200px;
+  height:100%;
+}
+.link:hover{
+  border:10px outset rgb(118, 243, 180);
+}
+
+/*MAIN*/
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+select {
+  padding: 8px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#hotels {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hotel-card {
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card h3 {
+  margin: 5px 0;
+  color: #2980b9;
+}
+
+.hotel-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.hotel-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.left-image {
+  float: left;  /* Moves image to the extreme left */
+  margin-left: 0; /* Ensures no extra space on the left */
+  width: 400px;  /* Reduce size (adjust as needed) */
+  height: 300px;  /* Maintain aspect ratio */
+}
+.bottom-right-image {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 400px;  /* Reduce size */
+  height: 300px;
+}

@@ -1,0 +1,59 @@
+/*GENERAL*/ 
+body{ 
+    background-image: url('home5.webp'); 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    margin:0; 
+    padding:0; 
+    height:100% 
+} 
+a{ 
+    text-decoration:none; 
+} 
+/*HEADER*/ 
+.title{ 
+    margin-right:80px;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    text-align:left; 
+    color:rgb(0, 0, 0); 
+    margin-top:5px; 
+
+} 
+.link_bar{ 
+    display:flex; 
+    font-size:30px; 
+    color:rgb(246, 229, 184); 
+    background-color:rgb(29, 28, 28); 
+} 
+.home{ 
+    text-align:center; 
+    width:120px; 
+    padding:5px; 
+    margin:auto; 
+} 
+.book{ 
+    text-align:center; 
+    padding:5px; 
+    width:120px; 
+    margin:auto; 
+} 
+.about{ 
+    text-align:center; 
+    width:120px; 
+    padding:5px; 
+    margin:auto; 
+} 
+/*CONTENT-MAIN*/ 
+main{ 
+    font-family: 'Caveat', cursive;
+    font-size:20px;
+    margin-right:100px; 
+    color:rgb(0, 0, 0); 
+    width:500px; 
+    text-align:left; 
+    margin-left:30px;
+    font-size:1.25em; 
+    margin-top:20px;
+ 
+}
