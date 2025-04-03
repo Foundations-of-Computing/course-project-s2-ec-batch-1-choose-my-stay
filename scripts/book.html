@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Hotel Booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+<header> 
+    <div class="title">
+        <h1 class="name" >ChooseMyStay</h1>
+        <a href="home.html" style="color:rgb(124, 29, 5)" class="link"><strong>HOME</strong></a>
+    </div>
+</header>
+<main>
+    <img src="img.webp" class="left-image" alt="Kerala Tourism">
+    <img src="stay.jpg" class="bottom-right-image" alt="Kerala Tourism">
+    <!--This will be provide a drop down menu containing all 14 districts of kerala.
+         It allows selection of various Districts according to use.
+    -->
+
+    <label for="district">SELECT DISTRICT:</label>
+    <select id="district">
+        <option value="">--Select--</option>
+        <option value="Trivandrum">Trivandrum</option>
+        <option value="Kollam">Kollam</option>
+        <option value="Pathanamthitta">Pathanamthitta</option>
+        <option value="Alappuzha">Alappuzha</option>
+        <option value="Kottayam">Kottayam</option>
+        <option value="Idukki">Idukki</option>
+        <option value="Ernakulam">Ernakulam</option>
+        <option value="Thrissur">Thrissur</option>
+        <option value="Palakkad">Palakkad</option>
+        <option value="Malappuram">Malappuram</option>
+        <option value="Kozhikode">Kozhikode</option>
+        <option value="Wayanad">Wayanad</option>
+        <option value="Kannur">Kannur</option>
+        <option value="Kasaragod">Kasaragod</option>
+    </select>
+    
+    <div id="hotels"></div>
+    <script src="book.js"></script>
+</main>
+</body>
+</html>
